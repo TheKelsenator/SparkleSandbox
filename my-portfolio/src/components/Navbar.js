@@ -2,7 +2,8 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import '../App.css';
-import logo from '../assets/images/logo.jpg';
+import logo from '../assets/images/LogoYellow.jpg';
+import logo2 from '../assets/images/LogoYellow(2).jpg'
 import navIcon from '../assets/images/icons8-linkedin-144.png';
 import navIcon2 from '../assets/images/icons8-github-100.png';
 
@@ -11,7 +12,8 @@ function NavBar() {
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container>
         <Navbar.Brand className="logo">
-          <img src={logo} alt="Logo" width="120" height="75" />
+          <img className="sun-logo" src={logo2} alt="Logo" height="60" />
+          <img className="name-logo" src={logo} alt="Logo" height="60" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">

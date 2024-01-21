@@ -13,7 +13,7 @@ function About() {
         <Container>
           <Row>
             <Col>
-                <p className="welcome">Welcome to my portfolio</p>
+              <p className="welcome">Welcome to my portfolio</p>
             </Col>
           </Row>
           <Row>
