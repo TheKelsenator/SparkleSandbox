@@ -3,14 +3,16 @@ import Card from 'react-bootstrap/Card';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import PlaceHolderImage from '../assets/images/image-placeholder.avif';
-import Arrow from '../assets/images/arrow.jpg';
+// import Arrow from '../assets/images/arrow.jpg';
 import '../App.css';
 
 function Projects() {
+
   return (
     <>
-      <section className="projects-section">
+      <section className="projects-section" id="projects">
         <Container>
           <Row>
             <Col>
@@ -70,11 +72,11 @@ function Projects() {
                 </Card.Body>
               </Card>
             </Col>
-            <Row>
+            {/* <Row>
             <Col>
               <p className="view-all-projects">View All Projects <Image src={Arrow} alt="right facing arrow" height="50" /></p>
             </Col>
-          </Row>
+          </Row> */}
           </Row>
         </Container>
       </section>

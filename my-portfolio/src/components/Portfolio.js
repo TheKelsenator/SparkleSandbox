@@ -3,6 +3,9 @@ import NavBar from "./Navbar";
 import About from "./About";
 import Skills from "./Skills";
 import Projects from "./Projects";
+import Contact from "./Contact";
+import Footer from "./Footer";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Portfolio() {
   return (
@@ -11,6 +14,8 @@ function Portfolio() {
       <About />
       <Skills />
       <Projects />
+      <Contact />
+      <Footer />
     </>
   );
 }
