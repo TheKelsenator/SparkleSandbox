@@ -4,8 +4,6 @@ import { Container, Row, Col, Form, Button, Nav } from 'react-bootstrap';
 import emailjs from '@emailjs/browser';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ContactImage from '../assets/images/contact.jpg';
-import navIcon from '../assets/images/icons8-linkedin-144.png';
-import navIcon2 from '../assets/images/icons8-github-100.png';
 
 // const styles = `
 
@@ -79,7 +77,6 @@ function Contact() {
             </Col>
           </Row>
         </Container>
-        {/* <style>{styles}</style> */}
       </section>
     </>
   );

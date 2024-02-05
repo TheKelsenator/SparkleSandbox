@@ -1,9 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
-import Image from 'react-bootstrap/Image';
+import { Container, Nav, Row, Col, Image } from 'react-bootstrap';
 import '../App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Headshot from '../assets/images/PortfolioHeadShotBlur.png';
@@ -63,16 +59,18 @@ function About() {
             <Col className="name-developer">
               <p className="name">Hi! I'm Kelsey</p>
               <AnimatedHeader />
-              <p className="about-paragraph">As a recent graduate of a Full-Stack Bootcamp 
-                through the University of Utah, I'm excited to start
-                my journey as a junior developer. During my studies I have gained hands-on 
-                experience in front-end and back-end technologies, including HTML, CSS, 
-                API's, JavaScript, React, Node.js and SQL. Beyond coding I am a curious 
-                learner who ejoys whitewater rafting, carpentry/woodworking, sewing, playing 
-                guitar and volunteering within my community in beautiful Stanley, Idaho. I am excited to 
-                contribute my enthusiasm, techical skills, and passion for learning to a 
-                dynamic development team. I am ready to take on new challenges and collaborate 
-                with fellow developers to create solutions that drive results.</p>
+              <p className="about-paragraph">A dedicated Web Developer nestled in the breathtaking 
+                wilderness of Stanley, Idaho. With my faithful four-legged companion by my side, I 
+                find solace in exploring the great outdoors, whether it's hiking through rugged 
+                terrain or navigating the rapids of our local rivers. When I'm not out adventuring, 
+                you'll often find me strumming my guitar or crafting intricate woodwork pieces in the 
+                shop. As an active member of my community, I proudly volunteer as an EMT with our local 
+                ambulance service. After a decade of embracing seasonal work — a way of life that served me 
+                well — I have transitioned away from this transient lifestyle and discovered a profound 
+                passion for coding and web development. This newfound enthusiasm is not a fleeting interest; 
+                it signifies a deliberate career shift. I'm eager to dive deep into the world of coding 
+                and make a lasting impact. Join me in this exciting journey as we navigate the fast-paced 
+                world of technology together!</p>
             </Col>
             <Col className="headshot">
               <Image src={Headshot} roundedCircle alt="cartoon headshot" height="500" />

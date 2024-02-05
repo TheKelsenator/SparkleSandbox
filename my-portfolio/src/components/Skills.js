@@ -1,10 +1,7 @@
+import React from 'react';
 import '../App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
-import Card from 'react-bootstrap/Card';
-import Image from 'react-bootstrap/Image';
+import { Container, Row, Col, Card, Image } from 'react-bootstrap';
 import CodingIcon from '../assets/images/coding(3).png';
 // import Arrow from '../assets/images/arrow.jpg';
 

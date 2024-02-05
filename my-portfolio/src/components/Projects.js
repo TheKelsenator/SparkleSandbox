@@ -1,8 +1,5 @@
-import Container from 'react-bootstrap/esm/Container';
-import Card from 'react-bootstrap/Card';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
-import Image from 'react-bootstrap/Image';
+import React from 'react';
+import { Container, Row, Col, Card, Image } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import PlaceHolderImage from '../assets/images/image-placeholder.avif';
 // import Arrow from '../assets/images/arrow.jpg';
