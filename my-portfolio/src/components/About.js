@@ -60,11 +60,9 @@ function About() {
               <p className="name">Hi! I'm Kelsey</p>
               <AnimatedHeader />
               <p className="about-paragraph">A dedicated Web Developer nestled in the breathtaking 
-                wilderness of Stanley, Idaho. With my faithful four-legged companion by my side, I 
+                wilderness of Stanley, Idaho. With my faithful four-legged friend by my side, I 
                 find solace in exploring the great outdoors, whether it's hiking through rugged 
-                terrain or navigating the rapids of our local rivers. When I'm not out adventuring, 
-                you'll often find me strumming my guitar or crafting intricate woodwork pieces in the 
-                shop. As an active member of my community, I proudly volunteer as an EMT with our local 
+                terrain or navigating the rapids of our local rivers. As an active member of my community, I proudly volunteer as an EMT with our local 
                 ambulance service. After a decade of embracing seasonal work — a way of life that served me 
                 well — I have transitioned away from this transient lifestyle and discovered a profound 
                 passion for coding and web development. This newfound enthusiasm is not a fleeting interest; 
@@ -90,3 +88,7 @@ function About() {
 }
 
 export default About;
+
+// When I'm not out adventuring, you'll often find me 
+// strumming my guitar or crafting intricate woodwork 
+// pieces in the shop. 

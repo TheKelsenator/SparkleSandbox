@@ -1,16 +1,16 @@
 import React from 'react';
-import { Container, Row, Col, Card, Image } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import PlaceHolderImage from '../assets/images/image-placeholder.avif';
-// import Arrow from '../assets/images/arrow.jpg';
-import '../App.css';
+import { Carousel, Container, Row, Col } from 'react-bootstrap';
+import PlaceholderImage from '../assets/images/image-placeholder.jpg';
+import MyMenu from '../assets/images/MyMenuScreenshot.png';
+import WeatherDashboard from '../assets/images/ServerSideWeatherDashboardScreenshot.png';
+import NoteTaker from '../assets/images/ExpressjsNoteTakerScreenshot.png';
 
 function Projects() {
-
   return (
-    <>
+    <>  
       <section className="projects-section" id="projects">
-        <Container>
+        <Container className="projects-container">
           <Row>
             <Col>
               <p className="projects-title">My Projects</p>
@@ -18,62 +18,65 @@ function Projects() {
           </Row>
           <Row>
             <Col>
-              <Card className="project-card" style={{ width: '18rem' }}>
-                <Card.Body>
-                  <Card.Title>Project Title</Card.Title>
-                  <Card.Subtitle className="project-description mb-2 text-muted">Short Project Description</Card.Subtitle>
-                    <Image className="project-img" src={PlaceHolderImage} alt="place holder" height="250" />
-                  <a className="link-line">
-                    <Card.Link className="link" href="#">Project Link</Card.Link>
-                    <Card.Link className="link" href="#">Github Link</Card.Link>
-                  </a>
-                </Card.Body>
-              </Card>
+              <Carousel className="projects-carousel" fade>
+                <Carousel.Item>
+                  <div className="carousel-image">
+                    <img
+                      className="image"
+                      style={{height: 350}}
+                      src={MyMenu}
+                      alt="First slide"
+                    />
+                  </div>
+                  <Carousel.Caption>
+                    <div className="carousel-caption">
+                      <h5>My Menu Recipe Saver</h5>
+                      <p>A searchable site to help you find and save meals specific to your preferences, 
+                        allergies, number of calories and/or your specific dietetary needs. Nutritional 
+                        information, helping you utilize food for growth, health and medicine. 
+                      </p>
+                    </div>
+                  </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                  <div className="carousel-image">
+                    <img
+                      className="image"
+                      style={{height: 350}}
+                      src={WeatherDashboard}
+                      alt="Second slide"
+                    />
+                  </div>
+                  <Carousel.Caption>
+                    <div className="carousel-caption">
+                      <h5>Weather Dashboard</h5>
+                      <p>A weather dashboard that will run in the browswer
+                      and feature dynamically updated HTML and CSS.
+                      </p>
+                    </div>
+                  </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                  <div className="carousel-image">
+                    <img
+                      className="image"
+                      style={{height: 350}}
+                      src={NoteTaker}
+                      alt="Third slide"
+                    />
+                  </div>
+                  <Carousel.Caption>
+                    <div className="carousel-caption">
+                      <h5>Express.js Note Taker</h5>
+                      <p>
+                        A note taker app that can create, 
+                        store and delete notes.
+                      </p>
+                    </div>
+                  </Carousel.Caption>
+                </Carousel.Item>
+              </Carousel>
             </Col>
-            <Col>
-              <Card className="project-card" style={{ width: '18rem' }}>
-                <Card.Body>
-                  <Card.Title>Project Title</Card.Title>
-                  <Card.Subtitle className="project-description mb-2 text-muted">Short Project Description</Card.Subtitle>
-                    <Image className="project-img" src={PlaceHolderImage} alt="place holder" height="250" />
-                  <a className="link-line">
-                    <Card.Link className="link" href="#">Project Link</Card.Link>
-                    <Card.Link className="link" href="#">Github Link</Card.Link>
-                  </a>
-                </Card.Body>
-              </Card>
-            </Col>
-            <Col>
-              <Card className="project-card" style={{ width: '18rem' }}>
-                <Card.Body>
-                  <Card.Title>Project Title</Card.Title>
-                  <Card.Subtitle className="project-description mb-2 text-muted">Short Project Description</Card.Subtitle>
-                    <Image className="project-img" src={PlaceHolderImage} alt="place holder" height="250" />
-                  <a className="link-line">
-                    <Card.Link className="link" href="#">Project Link</Card.Link>
-                    <Card.Link className="link" href="#">Github Link</Card.Link>
-                  </a>  
-                </Card.Body>
-              </Card>
-            </Col>
-            <Col>
-              <Card className="project-card" style={{ width: '18rem' }}>
-                <Card.Body>
-                  <Card.Title>Project Title</Card.Title>
-                  <Card.Subtitle className="project-description mb-2 text-muted">COMING SOON.....</Card.Subtitle>
-                    <Image className="project-img" src={PlaceHolderImage} alt="place holder" height="250" />
-                  <a className="link-line">
-                    <Card.Link className="link" href="#">Project Link</Card.Link>
-                    <Card.Link className="link" href="#">Github Link</Card.Link>
-                  </a>
-                </Card.Body>
-              </Card>
-            </Col>
-            {/* <Row>
-            <Col>
-              <p className="view-all-projects">View All Projects <Image src={Arrow} alt="right facing arrow" height="50" /></p>
-            </Col>
-          </Row> */}
           </Row>
         </Container>
       </section>
