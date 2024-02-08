@@ -2,7 +2,7 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Carousel, Container, Row, Col } from 'react-bootstrap';
 import PlaceholderImage from '../assets/images/image-placeholder.jpg';
-import MyMenu from '../assets/images/MyMenuScreenshot.png';
+import JavaScriptQuiz from '../assets/images/CodingQuizScreenshot.png';
 import WeatherDashboard from '../assets/images/ServerSideWeatherDashboardScreenshot.png';
 import NoteTaker from '../assets/images/ExpressjsNoteTakerScreenshot.png';
 
@@ -24,17 +24,21 @@ function Projects() {
                     <img
                       className="image"
                       style={{height: 350}}
-                      src={MyMenu}
+                      src={JavaScriptQuiz}
                       alt="First slide"
                     />
                   </div>
                   <Carousel.Caption>
                     <div className="carousel-caption">
-                      <h5>My Menu Recipe Saver</h5>
-                      <p>A searchable site to help you find and save meals specific to your preferences, 
-                        allergies, number of calories and/or your specific dietetary needs. Nutritional 
-                        information, helping you utilize food for growth, health and medicine. 
-                      </p>
+                      <h5>Web API Coding Quiz</h5>
+                      <p>Welcome to the Web API Quiz! This interactive quiz is designed for 
+                        coding and web development students to test their knowledge in a fun
+                        and engaging way. With 10 thought-provoking questions, test your knowledge
+                        against the clock. This quiz is timed to subtract 10 seconds for every
+                        wrong answer, adding an extra layer of excitement and challenge! This quiz 
+                        will keep track of your high scores, but if you think you can do better 
+                        you can always go back and retake the quiz to improve your score and climb 
+                        up the leaderboard.</p>
                     </div>
                   </Carousel.Caption>
                 </Carousel.Item>
