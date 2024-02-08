@@ -41,7 +41,7 @@ function Contact() {
           <Row className="contact-container">
             <Col>
               <figure className="position-relative">
-                <img src={ContactImage} alt="rotary phone" className="img-fluid" style={{opacity:.5}} />
+                <img src={ContactImage} alt="background-img" className="img-fluid" style={{opacity:.5}} />
                 <figcaption>
                   <h2 className="info-name">Kelsey M. O'Kelley</h2>
                     <ul className="unordered-list">
