@@ -5,10 +5,6 @@ import emailjs from '@emailjs/browser';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ContactImage from '../assets/images/contact.jpg';
 
-// const styles = `
-
-// `;
-
 function Contact() {
   const form = useRef();
 
@@ -35,6 +31,7 @@ function Contact() {
 
   return (
     <>
+    <style>{styles}</style>
       <section className="contact-section" id="letsconnect">
         <Container>
           <h2 className="connect">Let's Connect</h2>
@@ -81,5 +78,649 @@ function Contact() {
     </>
   );
 }
+
+const styles = `
+  .contact-section {
+    background-color: #efe7dd;
+    padding-top: 85px;
+    padding-bottom: 5%;
+  }
+
+  div.contact-container.row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+  }
+
+  h2.connect {
+    display: flex;
+    justify-content: center;
+    color: #9b4922;
+    font-size: 70px;
+    font-weight: bold;
+    margin-bottom: 2%;
+  }
+
+  img.img-fluid {
+    position: relative;
+    border-radius: 20px;
+    height: 100%;
+  }
+
+  h2.info-name {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  figcaption {
+    position: absolute;
+    color: #9b4922;
+    top: 5%;
+    right: 28%;
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  li.info-li {
+    padding-bottom: 4%;
+  }
+
+  ul.unordered-list {
+    list-style: none;
+    margin-top: 5%;
+  }
+
+  div.form.col {
+    display: block;
+  }
+
+  label.form-label {
+    display: flex;
+    padding: 1% 0 .5% 0;
+    color: #9b4922 !important;
+    font-size: 25px;
+    font-weight: 500;
+  }
+
+  #formName.form-control {
+    display: flex;
+    font-size: 20px;
+  }
+
+  #formEmail.form-control {
+    display: flex;
+    font-size: 20px;
+  }
+
+  #formMessage.form-control {
+    display: flex;
+    font-size: 20px;
+  }
+
+  div.button-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  button.btn.btn-primary {
+    font-size: 20px;
+    margin-top: 4%;
+  }
+
+  @media screen and (max-width: 400px) {
+    .contact-section {
+      background-color: #efe7dd;
+      padding-top: 85px;
+      padding-bottom: 5%;
+    }
+    
+    div.contact-container.row {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      height: 100%;
+    }
+    
+    h2.connect {
+      display: flex;
+      justify-content: center;
+      color: #9b4922;
+      font-size: 70px;
+      font-weight: bold;
+      margin-bottom: 2%;
+    }
+    
+    img.img-fluid {
+      position: relative;
+      border-radius: 20px;
+      height: 100%;
+    }
+    
+    h2.info-name {
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    
+    figcaption {
+      position: absolute;
+      color: #9b4922;
+      top: 5%;
+      right: 28%;
+      font-size: 20px;
+      font-weight: 600;
+    }
+    
+    li.info-li {
+      padding-bottom: 4%;
+    }
+    
+    ul.unordered-list {
+      list-style: none;
+      margin-top: 5%;
+    }
+    
+    div.form.col {
+      display: block;
+    }
+    
+    label.form-label {
+      display: flex;
+      padding: 1% 0 .5% 0;
+      color: #9b4922 !important;
+      font-size: 25px;
+      font-weight: 500;
+    }
+    
+    #formName.form-control {
+      display: flex;
+      font-size: 20px;
+    }
+    
+    #formEmail.form-control {
+      display: flex;
+      font-size: 20px;
+    }
+    
+    #formMessage.form-control {
+      display: flex;
+      font-size: 20px;
+    }
+    
+    div.button-container {
+      display: flex;
+      justify-content: center;
+    }
+    
+    button.btn.btn-primary {
+      font-size: 20px;
+      margin-top: 4%;
+    }
+  }
+  
+  @media screen and (min-width: 401px) and (max-width: 720px) {
+    .contact-section {
+      background-color: #efe7dd;
+      padding-top: 85px;
+      padding-bottom: 5%;
+    }
+    
+    div.contact-container.row {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      height: 100%;
+    }
+    
+    h2.connect {
+      display: flex;
+      justify-content: center;
+      color: #9b4922;
+      font-size: 70px;
+      font-weight: bold;
+      margin-bottom: 2%;
+    }
+    
+    img.img-fluid {
+      position: relative;
+      border-radius: 20px;
+      height: 100%;
+    }
+    
+    h2.info-name {
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    
+    figcaption {
+      position: absolute;
+      color: #9b4922;
+      top: 5%;
+      right: 28%;
+      font-size: 20px;
+      font-weight: 600;
+    }
+    
+    li.info-li {
+      padding-bottom: 4%;
+    }
+    
+    ul.unordered-list {
+      list-style: none;
+      margin-top: 5%;
+    }
+    
+    div.form.col {
+      display: block;
+    }
+    
+    label.form-label {
+      display: flex;
+      padding: 1% 0 .5% 0;
+      color: #9b4922 !important;
+      font-size: 25px;
+      font-weight: 500;
+    }
+    
+    #formName.form-control {
+      display: flex;
+      font-size: 20px;
+    }
+    
+    #formEmail.form-control {
+      display: flex;
+      font-size: 20px;
+    }
+    
+    #formMessage.form-control {
+      display: flex;
+      font-size: 20px;
+    }
+    
+    div.button-container {
+      display: flex;
+      justify-content: center;
+    }
+    
+    button.btn.btn-primary {
+      font-size: 20px;
+      margin-top: 4%;
+    }
+  }
+  
+  @media screen and (min-width: 721px) and (max-width: 1280px) {
+    .contact-section {
+      background-color: #efe7dd;
+      padding-top: 85px;
+      padding-bottom: 5%;
+    }
+    
+    div.contact-container.row {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      height: 100%;
+    }
+    
+    h2.connect {
+      display: flex;
+      justify-content: center;
+      color: #9b4922;
+      font-size: 70px;
+      font-weight: bold;
+      margin-bottom: 2%;
+    }
+    
+    img.img-fluid {
+      position: relative;
+      border-radius: 20px;
+      height: 100%;
+    }
+    
+    h2.info-name {
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    
+    figcaption {
+      position: absolute;
+      color: #9b4922;
+      top: 5%;
+      right: 28%;
+      font-size: 20px;
+      font-weight: 600;
+    }
+    
+    li.info-li {
+      padding-bottom: 4%;
+    }
+    
+    ul.unordered-list {
+      list-style: none;
+      margin-top: 5%;
+    }
+    
+    div.form.col {
+      display: block;
+    }
+    
+    label.form-label {
+      display: flex;
+      padding: 1% 0 .5% 0;
+      color: #9b4922 !important;
+      font-size: 25px;
+      font-weight: 500;
+    }
+    
+    #formName.form-control {
+      display: flex;
+      font-size: 20px;
+    }
+    
+    #formEmail.form-control {
+      display: flex;
+      font-size: 20px;
+    }
+    
+    #formMessage.form-control {
+      display: flex;
+      font-size: 20px;
+    }
+    
+    div.button-container {
+      display: flex;
+      justify-content: center;
+    }
+    
+    button.btn.btn-primary {
+      font-size: 20px;
+      margin-top: 4%;
+    }
+  }
+  
+  @media screen and (min-width: 1281px) and (max-width: 1440px) {
+    .contact-section {
+      background-color: #efe7dd;
+      padding-top: 85px;
+      padding-bottom: 5%;
+    }
+    
+    div.contact-container.row {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      height: 100%;
+    }
+    
+    h2.connect {
+      display: flex;
+      justify-content: center;
+      color: #9b4922;
+      font-size: 70px;
+      font-weight: bold;
+      margin-bottom: 2%;
+    }
+    
+    img.img-fluid {
+      position: relative;
+      border-radius: 20px;
+      height: 100%;
+    }
+    
+    h2.info-name {
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    
+    figcaption {
+      position: absolute;
+      color: #9b4922;
+      top: 5%;
+      right: 28%;
+      font-size: 20px;
+      font-weight: 600;
+    }
+    
+    li.info-li {
+      padding-bottom: 4%;
+    }
+    
+    ul.unordered-list {
+      list-style: none;
+      margin-top: 5%;
+    }
+    
+    div.form.col {
+      display: block;
+    }
+    
+    label.form-label {
+      display: flex;
+      padding: 1% 0 .5% 0;
+      color: #9b4922 !important;
+      font-size: 25px;
+      font-weight: 500;
+    }
+    
+    #formName.form-control {
+      display: flex;
+      font-size: 20px;
+    }
+    
+    #formEmail.form-control {
+      display: flex;
+      font-size: 20px;
+    }
+    
+    #formMessage.form-control {
+      display: flex;
+      font-size: 20px;
+    }
+    
+    div.button-container {
+      display: flex;
+      justify-content: center;
+    }
+    
+    button.btn.btn-primary {
+      font-size: 20px;
+      margin-top: 4%;
+    }
+  }
+  
+  @media screen and (min-width: 1441px) and (max-width: 1920px) {
+    .contact-section {
+      background-color: #efe7dd;
+      padding-top: 85px;
+      padding-bottom: 5%;
+    }
+    
+    div.contact-container.row {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      height: 100%;
+    }
+    
+    h2.connect {
+      display: flex;
+      justify-content: center;
+      color: #9b4922;
+      font-size: 70px;
+      font-weight: bold;
+      margin-bottom: 2%;
+    }
+    
+    img.img-fluid {
+      position: relative;
+      border-radius: 20px;
+      height: 100%;
+    }
+    
+    h2.info-name {
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    
+    figcaption {
+      position: absolute;
+      color: #9b4922;
+      top: 5%;
+      right: 28%;
+      font-size: 20px;
+      font-weight: 600;
+    }
+    
+    li.info-li {
+      padding-bottom: 4%;
+    }
+    
+    ul.unordered-list {
+      list-style: none;
+      margin-top: 5%;
+    }
+    
+    div.form.col {
+      display: block;
+    }
+    
+    label.form-label {
+      display: flex;
+      padding: 1% 0 .5% 0;
+      color: #9b4922 !important;
+      font-size: 25px;
+      font-weight: 500;
+    }
+    
+    #formName.form-control {
+      display: flex;
+      font-size: 20px;
+    }
+    
+    #formEmail.form-control {
+      display: flex;
+      font-size: 20px;
+    }
+    
+    #formMessage.form-control {
+      display: flex;
+      font-size: 20px;
+    }
+    
+    div.button-container {
+      display: flex;
+      justify-content: center;
+    }
+    
+    button.btn.btn-primary {
+      font-size: 20px;
+      margin-top: 4%;
+    }
+  }
+  
+  @media screen and (min-width: 1921px) {
+    .contact-section {
+      background-color: #efe7dd;
+      padding-top: 85px;
+      padding-bottom: 5%;
+    }
+    
+    div.contact-container.row {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      height: 100%;
+    }
+    
+    h2.connect {
+      display: flex;
+      justify-content: center;
+      color: #9b4922;
+      font-size: 70px;
+      font-weight: bold;
+      margin-bottom: 2%;
+    }
+    
+    img.img-fluid {
+      position: relative;
+      border-radius: 20px;
+      height: 100%;
+    }
+    
+    h2.info-name {
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    
+    figcaption {
+      position: absolute;
+      color: #9b4922;
+      top: 5%;
+      right: 28%;
+      font-size: 20px;
+      font-weight: 600;
+    }
+    
+    li.info-li {
+      padding-bottom: 4%;
+    }
+    
+    ul.unordered-list {
+      list-style: none;
+      margin-top: 5%;
+    }
+    
+    div.form.col {
+      display: block;
+    }
+    
+    label.form-label {
+      display: flex;
+      padding: 1% 0 .5% 0;
+      color: #9b4922 !important;
+      font-size: 25px;
+      font-weight: 500;
+    }
+    
+    #formName.form-control {
+      display: flex;
+      font-size: 20px;
+    }
+    
+    #formEmail.form-control {
+      display: flex;
+      font-size: 20px;
+    }
+    
+    #formMessage.form-control {
+      display: flex;
+      font-size: 20px;
+    }
+    
+    div.button-container {
+      display: flex;
+      justify-content: center;
+    }
+    
+    button.btn.btn-primary {
+      font-size: 20px;
+      margin-top: 4%;
+    }
+  }
+`;
 
 export default Contact;

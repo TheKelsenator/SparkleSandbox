@@ -48,6 +48,7 @@ function About() {
   
   return (
     <>
+    <style>{styles}</style>
       <section className="about-section" id="about">
         <Container>
           <Row>
@@ -87,8 +88,375 @@ function About() {
   );
 }
 
-export default About;
+const styles = `
+  .about-section {
+    color: #9b4922;
+    background-color: #efe7dd !important;
+    padding-top: 2%;
+  }
 
-// When I'm not out adventuring, you'll often find me 
-// strumming my guitar or crafting intricate woodwork 
-// pieces in the shop. 
+  img.rounded-circle {
+    border: 5px solid #d3a15e;
+    margin-left: 5%;
+    margin-top: 10%
+  }
+
+  p.welcome {
+    font-size: 30px;
+    border: 4px solid #9b4922;
+    border-radius: 7px;
+    width: fit-content;
+    padding: 0 1% 0 1%;
+    margin: 8% 0 0 10%;
+  }
+
+  div.name-developer.col {
+    width: fit-content;
+    margin-left: 13%;
+  }
+
+  p.name {
+    font-size: 75px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+  }
+
+  p.developer {
+    font-size: 42px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  p.about-paragraph {
+    font-size: 18px;
+    margin: 3% 3% 3% 3% ;
+  }
+
+  p.lets-connect {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 2% 0 0 25%;
+  }
+
+  @media screen and (max-width: 400px) {
+    .about-section {
+        color: #9b4922;
+        background-color: #efe7dd !important;
+        padding-top: 2%;
+      }
+    
+      img.rounded-circle {
+        border: 5px solid #d3a15e;
+        margin-left: 5%;
+        margin-top: 10%
+      }
+    
+      p.welcome {
+        font-size: 30px;
+        border: 4px solid #9b4922;
+        border-radius: 7px;
+        width: fit-content;
+        padding: 0 1% 0 1%;
+        margin: 8% 0 0 10%;
+      }
+    
+      div.name-developer.col {
+        width: fit-content;
+        margin-left: 13%;
+      }
+    
+      p.name {
+        font-size: 75px;
+        font-weight: bold;
+        margin: 0;
+        padding: 0;
+      }
+    
+      p.developer {
+        font-size: 42px;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+      }
+    
+      p.about-paragraph {
+        font-size: 18px;
+        margin: 3% 3% 3% 3% ;
+      }
+    
+      p.lets-connect {
+        font-size: 40px;
+        font-weight: bold;
+        margin: 2% 0 0 25%;
+      }
+  }
+  
+  @media screen and (min-width: 401px) and (max-width: 720px) {
+    .about-section {
+        color: #9b4922;
+        background-color: #efe7dd !important;
+        padding-top: 2%;
+      }
+    
+      img.rounded-circle {
+        border: 5px solid #d3a15e;
+        margin-left: 5%;
+        margin-top: 10%
+      }
+    
+      p.welcome {
+        font-size: 30px;
+        border: 4px solid #9b4922;
+        border-radius: 7px;
+        width: fit-content;
+        padding: 0 1% 0 1%;
+        margin: 8% 0 0 10%;
+      }
+    
+      div.name-developer.col {
+        width: fit-content;
+        margin-left: 13%;
+      }
+    
+      p.name {
+        font-size: 75px;
+        font-weight: bold;
+        margin: 0;
+        padding: 0;
+      }
+    
+      p.developer {
+        font-size: 42px;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+      }
+    
+      p.about-paragraph {
+        font-size: 18px;
+        margin: 3% 3% 3% 3% ;
+      }
+    
+      p.lets-connect {
+        font-size: 40px;
+        font-weight: bold;
+        margin: 2% 0 0 25%;
+      }
+  }
+  
+  @media screen and (min-width: 721px) and (max-width: 1280px) {
+    .about-section {
+        color: #9b4922;
+        background-color: #efe7dd !important;
+        padding-top: 2%;
+      }
+    
+      img.rounded-circle {
+        border: 5px solid #d3a15e;
+        margin-left: 5%;
+        margin-top: 10%
+      }
+    
+      p.welcome {
+        font-size: 30px;
+        border: 4px solid #9b4922;
+        border-radius: 7px;
+        width: fit-content;
+        padding: 0 1% 0 1%;
+        margin: 8% 0 0 10%;
+      }
+    
+      div.name-developer.col {
+        width: fit-content;
+        margin-left: 13%;
+      }
+    
+      p.name {
+        font-size: 75px;
+        font-weight: bold;
+        margin: 0;
+        padding: 0;
+      }
+    
+      p.developer {
+        font-size: 42px;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+      }
+    
+      p.about-paragraph {
+        font-size: 18px;
+        margin: 3% 3% 3% 3% ;
+      }
+    
+      p.lets-connect {
+        font-size: 40px;
+        font-weight: bold;
+        margin: 2% 0 0 25%;
+      }
+  }
+  
+  @media screen and (min-width: 1281px) and (max-width: 1440px) {
+    .about-section {
+        color: #9b4922;
+        background-color: #efe7dd !important;
+        padding-top: 2%;
+      }
+    
+      img.rounded-circle {
+        border: 5px solid #d3a15e;
+        margin-left: 5%;
+        margin-top: 10%
+      }
+    
+      p.welcome {
+        font-size: 30px;
+        border: 4px solid #9b4922;
+        border-radius: 7px;
+        width: fit-content;
+        padding: 0 1% 0 1%;
+        margin: 8% 0 0 10%;
+      }
+    
+      div.name-developer.col {
+        width: fit-content;
+        margin-left: 13%;
+      }
+    
+      p.name {
+        font-size: 75px;
+        font-weight: bold;
+        margin: 0;
+        padding: 0;
+      }
+    
+      p.developer {
+        font-size: 42px;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+      }
+    
+      p.about-paragraph {
+        font-size: 18px;
+        margin: 3% 3% 3% 3% ;
+      }
+    
+      p.lets-connect {
+        font-size: 40px;
+        font-weight: bold;
+        margin: 2% 0 0 25%;
+      }
+  }
+  
+  @media screen and (min-width: 1441px) and (max-width: 1920px) {
+    .about-section {
+        color: #9b4922;
+        background-color: #efe7dd !important;
+        padding-top: 2%;
+      }
+    
+      img.rounded-circle {
+        border: 5px solid #d3a15e;
+        margin-left: 5%;
+        margin-top: 10%
+      }
+    
+      p.welcome {
+        font-size: 30px;
+        border: 4px solid #9b4922;
+        border-radius: 7px;
+        width: fit-content;
+        padding: 0 1% 0 1%;
+        margin: 8% 0 0 10%;
+      }
+    
+      div.name-developer.col {
+        width: fit-content;
+        margin-left: 13%;
+      }
+    
+      p.name {
+        font-size: 75px;
+        font-weight: bold;
+        margin: 0;
+        padding: 0;
+      }
+    
+      p.developer {
+        font-size: 42px;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+      }
+    
+      p.about-paragraph {
+        font-size: 18px;
+        margin: 3% 3% 3% 3% ;
+      }
+    
+      p.lets-connect {
+        font-size: 40px;
+        font-weight: bold;
+        margin: 2% 0 0 25%;
+      }
+  }
+  
+  @media screen and (min-width: 1921px) {
+    .about-section {
+        color: #9b4922;
+        background-color: #efe7dd !important;
+        padding-top: 2%;
+      }
+    
+      img.rounded-circle {
+        border: 5px solid #d3a15e;
+        margin-left: 5%;
+        margin-top: 10%
+      }
+    
+      p.welcome {
+        font-size: 30px;
+        border: 4px solid #9b4922;
+        border-radius: 7px;
+        width: fit-content;
+        padding: 0 1% 0 1%;
+        margin: 8% 0 0 10%;
+      }
+    
+      div.name-developer.col {
+        width: fit-content;
+        margin-left: 13%;
+      }
+    
+      p.name {
+        font-size: 75px;
+        font-weight: bold;
+        margin: 0;
+        padding: 0;
+      }
+    
+      p.developer {
+        font-size: 42px;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+      }
+    
+      p.about-paragraph {
+        font-size: 18px;
+        margin: 3% 3% 3% 3% ;
+      }
+    
+      p.lets-connect {
+        font-size: 40px;
+        font-weight: bold;
+        margin: 2% 0 0 25%;
+      }
+  }
+`;
+
+export default About;
