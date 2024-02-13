@@ -5,6 +5,7 @@ import Skills from "./Skills";
 import Projects from "./Projects";
 import Contact from "./Contact";
 import Footer from "./Footer";
+import '../App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Portfolio() {

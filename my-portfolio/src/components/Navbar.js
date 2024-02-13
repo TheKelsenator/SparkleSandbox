@@ -16,6 +16,7 @@ function NavBar() {
 
   return (
     <Navbar expand="lg" className="" fixed="top">
+    <style>{styles}</style>
       <Container>
         <Navbar.Brand className="logo">
           <img className="sun-logo" src={logo2} alt="Logo" height="60" />
@@ -42,5 +43,286 @@ function NavBar() {
     </Navbar>
   );
 }
+
+const styles = `
+  nav.navbar { 
+    background-color: #d3a15e !important;
+    /* background-color: #c88a36 !important; */
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    padding: 0;
+  }
+
+  .logo {
+    display: flex;
+    justify-content: left;
+  }
+
+  img.sun-logo {
+    padding-right: 3%;
+  }
+
+  .navbar-text {
+    width: 100%;
+    justify-content: right;
+  }
+
+  .nav-link {
+    color: #764b36 !important;
+    font-size: 20px !important;
+    padding-left: 5% !important;
+  }
+
+  .nav-link:hover {
+    color: #462e20 !important;
+    font-weight: 500 !important;
+  }
+
+  .link-icons {
+    display: flex;
+    width: 25%;
+    justify-content: right;
+  }
+
+  @media screen and (max-width: 400px) {
+    nav.navbar { 
+      background-color: #d3a15e !important;
+      border-bottom-left-radius: 7px;
+      border-bottom-right-radius: 7px;
+      padding: 0;
+    }
+    
+    .logo {
+      display: flex;
+      justify-content: left;
+    }
+    
+    img.sun-logo {
+      padding-right: 3%;
+    }
+    
+    .navbar-text {
+      width: 100%;
+      justify-content: right;
+    }
+    
+    .nav-link {
+      color: #764b36 !important;
+      font-size: 20px !important;
+      padding-left: 5% !important;
+    }
+    
+    .nav-link:hover {
+      color: #462e20 !important;
+      font-weight: 500 !important;
+    }
+    
+    .link-icons {
+      display: flex;
+      width: 25%;
+      justify-content: right;
+    }
+  }
+  
+  @media screen and (min-width: 401px) and (max-width: 720px) {
+    nav.navbar { 
+      background-color: #d3a15e !important;
+      border-bottom-left-radius: 7px;
+      border-bottom-right-radius: 7px;
+      padding: 0;
+    }
+    
+    .logo {
+      display: flex;
+      justify-content: left;
+    }
+    
+    img.sun-logo {
+      padding-right: 3%;
+    }
+    
+    .navbar-text {
+      width: 100%;
+      justify-content: right;
+    }
+    
+    .nav-link {
+      color: #764b36 !important;
+      font-size: 20px !important;
+      padding-left: 5% !important;
+    }
+    
+    .nav-link:hover {
+      color: #462e20 !important;
+      font-weight: 500 !important;
+    }
+    
+    .link-icons {
+      display: flex;
+      width: 25%;
+      justify-content: right;
+    }
+  }
+  
+  @media screen and (min-width: 721px) and (max-width: 1280px) {
+    nav.navbar { 
+      background-color: #d3a15e !important;
+      border-bottom-left-radius: 7px;
+      border-bottom-right-radius: 7px;
+      padding: 0;
+    }
+    
+    .logo {
+      display: flex;
+      justify-content: left;
+    }
+    
+    img.sun-logo {
+      padding-right: 3%;
+    }
+    
+    .navbar-text {
+      width: 100%;
+      justify-content: right;
+    }
+    
+    .nav-link {
+      color: #764b36 !important;
+      font-size: 20px !important;
+      padding-left: 5% !important;
+    }
+    
+    .nav-link:hover {
+      color: #462e20 !important;
+      font-weight: 500 !important;
+    }
+    
+    .link-icons {
+      display: flex;
+      width: 25%;
+      justify-content: right;
+    }
+  }
+  
+  @media screen and (min-width: 1281px) and (max-width: 1440px) {
+    nav.navbar { 
+      background-color: #d3a15e !important;
+      border-bottom-left-radius: 7px;
+      border-bottom-right-radius: 7px;
+      padding: 0;
+    }
+    
+    .logo {
+      display: flex;
+      justify-content: left;
+    }
+    
+    img.sun-logo {
+      padding-right: 3%;
+    }
+    
+    .navbar-text {
+      width: 100%;
+      justify-content: right;
+    }
+    
+    .nav-link {
+      color: #764b36 !important;
+      font-size: 20px !important;
+      padding-left: 5% !important;
+    }
+    
+    .nav-link:hover {
+      color: #462e20 !important;
+      font-weight: 500 !important;
+    }
+    
+    .link-icons {
+      display: flex;
+      width: 25%;
+      justify-content: right;
+    }
+  }
+  
+  @media screen and (min-width: 1441px) and (max-width: 1920px) {
+    nav.navbar { 
+      background-color: #d3a15e !important;
+      border-bottom-left-radius: 7px;
+      border-bottom-right-radius: 7px;
+      padding: 0;
+    }
+    
+    .logo {
+      display: flex;
+      justify-content: left;
+    }
+    
+    img.sun-logo {
+      padding-right: 3%;
+    }
+    
+    .navbar-text {
+      width: 100%;
+      justify-content: right;
+    }
+    
+    .nav-link {
+      color: #764b36 !important;
+      font-size: 20px !important;
+      padding-left: 5% !important;
+    }
+    
+    .nav-link:hover {
+      color: #462e20 !important;
+      font-weight: 500 !important;
+    }
+    
+    .link-icons {
+      display: flex;
+      width: 25%;
+      justify-content: right;
+    }
+  }
+  
+  @media screen and (min-width: 1921px) {
+    nav.navbar { 
+      background-color: #d3a15e !important;
+      border-bottom-left-radius: 7px;
+      border-bottom-right-radius: 7px;
+      padding: 0;
+    }
+    
+    .logo {
+      display: flex;
+      justify-content: left;
+    }
+    
+    img.sun-logo {
+      padding-right: 3%;
+    }
+    
+    .navbar-text {
+      width: 100%;
+      justify-content: right;
+    }
+    
+    .nav-link {
+      color: #764b36 !important;
+      font-size: 20px !important;
+      padding-left: 5% !important;
+    }
+    
+    .nav-link:hover {
+      color: #462e20 !important;
+      font-weight: 500 !important;
+    }
+    
+    .link-icons {
+      display: flex;
+      width: 25%;
+      justify-content: right;
+    }
+  }
+`;
 
 export default NavBar;

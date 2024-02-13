@@ -9,6 +9,7 @@ function Skills() {
 
   return (
     <>
+    <style>{styles}</style>
       <section className="skills-section" id="skills">
         <Container>
           <Card className="skills-card">
@@ -109,5 +110,467 @@ function Skills() {
     </>
   );
 }
+
+const styles= `
+  .skills-section {
+    background-color: #efe7dd !important;
+    padding-top: 95px;
+  }
+
+  p.skills-title {
+    display: flex;
+    justify-content: center;
+    font-size: 70px;
+    font-weight: bold;
+    margin-bottom: 2%;
+  }
+
+  div.skills-card-column.col {
+    display: flex;
+    justify-content: center;
+  }
+
+  div.skills-card.card {
+    color: #9b4922;
+    background-color: #dedad5;
+    border: none;
+    border-radius: 10px;
+  }
+
+  div.sub-card.card {
+    color: #9b4922;
+    background-color: #efe7dd;
+    border: none;
+    margin-bottom: 2%;
+  }
+
+  div.card-title.h5 {
+    display: flex;
+    justify-content: center;
+    color: #9b4922;
+    font-size: 22px;
+    font-weight: bold;
+  }
+
+  p.card-text {
+    display: flex;
+    font-size: 20px;
+    font-weight: 400;
+  }
+
+  ul.skills-unordered-list {
+    list-style: none;
+  }
+
+  li.coding-icon {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 15%;
+    margin-left: 20%
+  }
+
+  p.lets-connect {
+    color: #9b4922;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 2% 0 0 30%;
+  }
+
+  @media screen and (max-width: 400px) {
+    .skills-section {
+      background-color: #efe7dd !important;
+      padding-top: 95px;
+    }
+    
+    p.skills-title {
+      display: flex;
+      justify-content: center;
+      font-size: 70px;
+      font-weight: bold;
+      margin-bottom: 2%;
+    }
+    
+    div.skills-card-column.col {
+      display: flex;
+      justify-content: center;
+    }
+    
+    div.skills-card.card {
+      color: #9b4922;
+      background-color: #dedad5;
+      border: none;
+      border-radius: 10px;
+    }
+    
+    div.sub-card.card {
+      color: #9b4922;
+      background-color: #efe7dd;
+      border: none;
+      margin-bottom: 2%;
+    }
+    
+    div.card-title.h5 {
+      display: flex;
+      justify-content: center;
+      color: #9b4922;
+      font-size: 22px;
+      font-weight: bold;
+    }
+    
+    p.card-text {
+      display: flex;
+      font-size: 20px;
+      font-weight: 400;
+    }
+    
+    ul.skills-unordered-list {
+      list-style: none;
+    }
+    
+    li.coding-icon {
+      display: flex;
+      justify-content: space-evenly;
+      margin-top: 15%;
+      margin-left: 20%
+    }
+    
+    p.lets-connect {
+      color: #9b4922;
+      font-size: 40px;
+      font-weight: bold;
+      margin: 2% 0 0 30%;
+    }
+  }
+  
+  @media screen and (min-width: 401px) and (max-width: 720px) {
+    .skills-section {
+      background-color: #efe7dd !important;
+      padding-top: 95px;
+    }
+    
+    p.skills-title {
+      display: flex;
+      justify-content: center;
+      font-size: 70px;
+      font-weight: bold;
+      margin-bottom: 2%;
+    }
+    
+    div.skills-card-column.col {
+      display: flex;
+      justify-content: center;
+    }
+    
+    div.skills-card.card {
+      color: #9b4922;
+      background-color: #dedad5;
+      border: none;
+      border-radius: 10px;
+    }
+    
+    div.sub-card.card {
+      color: #9b4922;
+      background-color: #efe7dd;
+      border: none;
+      margin-bottom: 2%;
+    }
+    
+    div.card-title.h5 {
+      display: flex;
+      justify-content: center;
+      color: #9b4922;
+      font-size: 22px;
+      font-weight: bold;
+    }
+    
+    p.card-text {
+      display: flex;
+      font-size: 20px;
+      font-weight: 400;
+    }
+    
+    ul.skills-unordered-list {
+      list-style: none;
+    }
+    
+    li.coding-icon {
+      display: flex;
+      justify-content: space-evenly;
+      margin-top: 15%;
+      margin-left: 20%
+    }
+    
+    p.lets-connect {
+      color: #9b4922;
+      font-size: 40px;
+      font-weight: bold;
+      margin: 2% 0 0 30%;
+    }
+  }
+  
+  @media screen and (min-width: 721px) and (max-width: 1280px) {
+    .skills-section {
+      background-color: #efe7dd !important;
+      padding-top: 95px;
+    }
+    
+    p.skills-title {
+      display: flex;
+      justify-content: center;
+      font-size: 70px;
+      font-weight: bold;
+      margin-bottom: 2%;
+    }
+    
+    div.skills-card-column.col {
+      display: flex;
+      justify-content: center;
+    }
+    
+    div.skills-card.card {
+      color: #9b4922;
+      background-color: #dedad5;
+      border: none;
+      border-radius: 10px;
+    }
+    
+    div.sub-card.card {
+      color: #9b4922;
+      background-color: #efe7dd;
+      border: none;
+      margin-bottom: 2%;
+    }
+    
+    div.card-title.h5 {
+      display: flex;
+      justify-content: center;
+      color: #9b4922;
+      font-size: 22px;
+      font-weight: bold;
+    }
+    
+    p.card-text {
+      display: flex;
+      font-size: 20px;
+      font-weight: 400;
+    }
+    
+    ul.skills-unordered-list {
+      list-style: none;
+    }
+    
+    li.coding-icon {
+      display: flex;
+      justify-content: space-evenly;
+      margin-top: 15%;
+      margin-left: 20%
+    }
+    
+    p.lets-connect {
+      color: #9b4922;
+      font-size: 40px;
+      font-weight: bold;
+      margin: 2% 0 0 30%;
+    }
+  }
+  
+  @media screen and (min-width: 1281px) and (max-width: 1440px) {
+    .skills-section {
+      background-color: #efe7dd !important;
+      padding-top: 95px;
+    }
+    
+    p.skills-title {
+      display: flex;
+      justify-content: center;
+      font-size: 70px;
+      font-weight: bold;
+      margin-bottom: 2%;
+    }
+    
+    div.skills-card-column.col {
+      display: flex;
+      justify-content: center;
+    }
+    
+    div.skills-card.card {
+      color: #9b4922;
+      background-color: #dedad5;
+      border: none;
+      border-radius: 10px;
+    }
+    
+    div.sub-card.card {
+      color: #9b4922;
+      background-color: #efe7dd;
+      border: none;
+      margin-bottom: 2%;
+    }
+    
+    div.card-title.h5 {
+      display: flex;
+      justify-content: center;
+      color: #9b4922;
+      font-size: 22px;
+      font-weight: bold;
+    }
+    
+    p.card-text {
+      display: flex;
+      font-size: 20px;
+      font-weight: 400;
+    }
+    
+    ul.skills-unordered-list {
+      list-style: none;
+    }
+    
+    li.coding-icon {
+      display: flex;
+      justify-content: space-evenly;
+      margin-top: 15%;
+      margin-left: 20%
+    }
+    
+    p.lets-connect {
+      color: #9b4922;
+      font-size: 40px;
+      font-weight: bold;
+      margin: 2% 0 0 30%;
+    }
+  }
+  
+  @media screen and (min-width: 1441px) and (max-width: 1920px) {
+    .skills-section {
+      background-color: #efe7dd !important;
+      padding-top: 95px;
+    }
+    
+    p.skills-title {
+      display: flex;
+      justify-content: center;
+      font-size: 70px;
+      font-weight: bold;
+      margin-bottom: 2%;
+    }
+    
+    div.skills-card-column.col {
+      display: flex;
+      justify-content: center;
+    }
+    
+    div.skills-card.card {
+      color: #9b4922;
+      background-color: #dedad5;
+      border: none;
+      border-radius: 10px;
+    }
+    
+    div.sub-card.card {
+      color: #9b4922;
+      background-color: #efe7dd;
+      border: none;
+      margin-bottom: 2%;
+    }
+    
+    div.card-title.h5 {
+      display: flex;
+      justify-content: center;
+      color: #9b4922;
+      font-size: 22px;
+      font-weight: bold;
+    }
+    
+    p.card-text {
+      display: flex;
+      font-size: 20px;
+      font-weight: 400;
+    }
+    
+    ul.skills-unordered-list {
+      list-style: none;
+    }
+    
+    li.coding-icon {
+      display: flex;
+      justify-content: space-evenly;
+      margin-top: 15%;
+      margin-left: 20%
+    }
+    
+    p.lets-connect {
+      color: #9b4922;
+      font-size: 40px;
+      font-weight: bold;
+      margin: 2% 0 0 30%;
+    }
+  }
+  
+  @media screen and (min-width: 1921px) {
+    .skills-section {
+      background-color: #efe7dd !important;
+      padding-top: 95px;
+    }
+    
+    p.skills-title {
+      display: flex;
+      justify-content: center;
+      font-size: 70px;
+      font-weight: bold;
+      margin-bottom: 2%;
+    }
+    
+    div.skills-card-column.col {
+      display: flex;
+      justify-content: center;
+    }
+    
+    div.skills-card.card {
+      color: #9b4922;
+      background-color: #dedad5;
+      border: none;
+      border-radius: 10px;
+    }
+    
+    div.sub-card.card {
+      color: #9b4922;
+      background-color: #efe7dd;
+      border: none;
+      margin-bottom: 2%;
+    }
+    
+    div.card-title.h5 {
+      display: flex;
+      justify-content: center;
+      color: #9b4922;
+      font-size: 22px;
+      font-weight: bold;
+    }
+    
+    p.card-text {
+      display: flex;
+      font-size: 20px;
+      font-weight: 400;
+    }
+    
+    ul.skills-unordered-list {
+      list-style: none;
+    }
+    
+    li.coding-icon {
+      display: flex;
+      justify-content: space-evenly;
+      margin-top: 15%;
+      margin-left: 20%
+    }
+    
+    p.lets-connect {
+      color: #9b4922;
+      font-size: 40px;
+      font-weight: bold;
+      margin: 2% 0 0 30%;
+    }
+  }
+`;
 
 export default Skills;
