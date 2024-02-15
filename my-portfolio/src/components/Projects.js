@@ -81,10 +81,15 @@ function Projects() {
                     <div className="carousel-caption">
                       <h5>Express.js Note Taker</h5>
                       <p>
-                        A note taker app that can create, 
-                        store and delete notes.
+                      The Note Taker App is a simple yet powerful tool for creating, storing, and managing 
+                      notes. Users can easily create new notes, view existing ones, and delete notes they 
+                      no longer need. The app utilizes a JSON database to ensure data persistence and 
+                      accessibility across sessions. With its user-friendly design and practical functionality, 
+                      the Express.js Note Taker App streamlines the process of note-taking for users.
                       </p>
                     </div>
+                    <Button variant="light" href="https://express-note-taker-kelsenator-5c092f71d434.herokuapp.com/" className="quizButton">Take Notes</Button>
+                    <Button variant="light" href="https://github.com/TheKelsenator/Express.js-Note-Taker-11" className="quizButton">Github Repo</Button>
                   </Carousel.Caption>
                 </Carousel.Item>
               </Carousel>
