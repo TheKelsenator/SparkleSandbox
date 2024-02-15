@@ -8,11 +8,11 @@
 
 ## Table of Contents
 
-  -[Usage](#usage)
-  -[License](#license)
-  -[Links](#links)
-  -[Screenshots](#screenshots)
-  -[Contact Me](#contact)
+  - [Usage](#usage)
+  - [License](#license)
+  - [Links](#links)
+  - [Screenshots](#screenshots)
+  - [Contact Me](#contact)
 
 ## Usage
 
@@ -35,6 +35,8 @@
 
 ## Screenshots
 
+  ![alt_text](./my-portfolio/src/assets/images/Screenshot(115).png)
+  ![alt_text](./my-portfolio/src/assets/images/Screenshot(116).png)
 
 ## Contact Me
 
